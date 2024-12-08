@@ -1,2 +1,1 @@
-# 100xDevs
-It's a full stack course. Here, i will put all the works that i have done
+My development Jouney starts from here. I will put all the works that i have done
