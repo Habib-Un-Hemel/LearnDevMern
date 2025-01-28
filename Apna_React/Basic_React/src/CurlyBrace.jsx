@@ -1,4 +1,16 @@
-function curlyBrace() {
-  return <p1>2 * 2 = {2 * 2}</p1>;
+function namePrint() {
+  let name = "Hemel, loves to do Coding!!";
+  return <p>Hi!, {name}</p>;
 }
+
+function curlyBrace() {
+  let name = "Hemel, loves to do Coding!!";
+  return (
+    <>
+      <p>Hi!, {name}</p>
+      <p1>2 * 2 = {2 * 2}</p1>
+    </>
+  );
+}
+
 export default curlyBrace;
