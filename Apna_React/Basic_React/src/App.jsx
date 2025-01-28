@@ -1,7 +1,6 @@
 import "./App.css";
-function Title() {
-  return <h1>I a new component named Title!</h1>;
-}
+import Title from "./Title.jsx";
+import CurlyBrace from "./CurlyBrace.jsx";
 
 function Description() {
   return <h3>I a new DESCRIPTION!</h3>;
@@ -12,8 +11,7 @@ function App() {
     <div>
       <Title></Title>
       <Description></Description>
-      <Title></Title>
-      <Description></Description>
+      <CurlyBrace></CurlyBrace>
     </div>
   );
 }
