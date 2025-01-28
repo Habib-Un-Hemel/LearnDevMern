@@ -7,7 +7,7 @@ function curlyBrace() {
   let name = "Hemel, loves to do Coding!!";
   return (
     <>
-      <p>Hi!, {name}</p>
+      <p>Hi!, {name.toUpperCase()}</p>
       <p1>2 * 2 = {2 * 2}</p1>
     </>
   );
